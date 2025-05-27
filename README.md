@@ -7,7 +7,9 @@ Convert your vintage Sun Type 5 keyboard into a modern USB HID keyboard with ful
 
 ## Overview
 
-This project transforms a Sun Microsystems Type 5 keyboard into a fully functional USB keyboard using a SparkFun Pro Micro (Arduino-compatible board). The adapter handles the Sun keyboard's unique negative logic serial protocol and maps all keys to modern USB HID equivalents.
+This project transforms a Sun Microsystems Type 5 keyboard into a fully functional USB keyboard using a SparkFun Pro Micro (Arduino-compatible board). The adapter handles the Sun keyboard's negative logic serial protocol and maps all keys to modern USB HID equivalents.
+
+For packaging, I decided to make a special cable that directly connects to the Sun electronics board, stick the Sparkfun Pro Micro inside the keyboard housing, and have a USB-C cable pass through the hole of the original cable. But if you want to buy an 8-pin connector, you could also make a separate converter. I liked the convenience of not having an external adapter. 
 
 ## Features
 
